@@ -6,8 +6,8 @@ class Port {
 addShip(ship) {
     this.ships.push(ship)
 }
-removeShip(index, ship) {
-this.ships.splice(index, 1)
+removeShip(ship) {
+this.ships.splice(this.ships.indexOf(ship), 1)
 }
 }
 
